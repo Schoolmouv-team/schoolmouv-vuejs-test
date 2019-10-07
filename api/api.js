@@ -80,6 +80,8 @@ app
   .use(router.allowedMethods())
   .listen(3000);
 
+console.log('API started on port: 3000');
+
 // Private
 
 const errorOn = (ctx, key) => {
